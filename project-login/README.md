@@ -81,6 +81,120 @@ Enter username: **Ona**
 Enter password: **aaaaa**
 Login incorrect. Tries left: 0
 
+# Task 3: Matching login & robot check (3 marks)
+This task is similar to Task 2, but:
+- the username and password must match, and
+- after three unsuccessful tries, the user is asked to confirm that they are not a robot so they can try to log in again.
+
+In Task 3, you will write a program that asks the user to enter a valid login. In this task, a valid login is a pair of username/password. Each username has a single password associated to it. If, after three tries, the user does not provide a correct login, the program asks whether they are a robot. If they are not a robot, the user is allowed three more tries. If they are a robot, the program terminates.
+
+When asked if they are a robot, the prompt reads "Are you a robot (Y/n)?". If the user inputs "Y" or nothing (i.e. ""), then the program terminates. If the user enters "n", they are given 3 more tries to log in. If the user enters anything else, the prompt "Are you a robot (Y/n)?" is asked again and the user must answer again.
+
+In this task, you may need to:
+- use a while loop inside another while loop,
+- use lists of lists, and
+- use == to compare two lists.
+
+Given the description above, the program can only terminate upon a succesful login or a failed robot check.
+
+The pairs of usernames and passwords are given as follows. They are case-sensitive.
+
+|----------|----------|
+| Username | Password |
+|----------|----------|
+| Ava      | 12345    |
+| Leo      | abcde    |
+| Raj      | pass1    |
+| Zoe      | qwert    |
+| Max      | aaaaa    |
+| Sam      | zzzzz    |
+| Eli      | 11111    |
+| Mia      | apple    |
+| Ian      | hello    |
+| Kim      | admin    | 
+|----------|----------|
+
+Because we are asking for a matching pair, inputting username "Ava" with password "abcde", for example, results in a failed login attempt, even though both strings are in this table. Only password "12345" leads to a succesful login for username "Ava".
+
+Input and output examples
+User inputs are in bold font in the following examples.
+
+Example 1
+
+Enter username: Lux
+Enter password: 12345
+Login incorrect. Tries left: 2
+Enter username: Kim
+Enter password: pass
+Login incorrect. Tries left: 1
+Enter username: Ravi
+Enter password: pass
+Login incorrect. Tries left: 0
+Are you a robot (Y/n)? lol
+Are you a robot (Y/n)? Y
+
+
+Example 2
+
+Enter username: Ava
+Enter password: zzzzz
+Login incorrect. Tries left: 2
+Enter username: Leo
+Enter password: aaaa
+Login incorrect. Tries left: 1
+Enter username: Ian
+Enter password: opqr
+Login incorrect. Tries left: 0
+Are you a robot (Y/n)? gg ez
+Are you a robot (Y/n)? n
+Enter username: Zoe
+Enter password: zzzzz
+Login incorrect. Tries left: 2
+Enter username: Zoe
+Enter password: qwert
+Login successful. Welcome Zoe !
+
+
+Example 3
+
+Enter username: Leo
+Enter password: qwer
+Login incorrect. Tries left: 2
+Enter username: Eli
+Enter password: abcd
+Login incorrect. Tries left: 1
+Enter username: Lux
+Enter password: aaaaa
+Login incorrect. Tries left: 0
+Are you a robot (Y/n)? gg ez
+Are you a robot (Y/n)? quit
+Are you a robot (Y/n)? n
+Enter username: Ona
+Enter password: wxyz
+Login incorrect. Tries left: 2
+Enter username: Ava
+Enter password: opqr
+Login incorrect. Tries left: 1
+Enter username: Raj
+Enter password: 4321
+Login incorrect. Tries left: 0
+Are you a robot (Y/n)? lol
+Are you a robot (Y/n)? n
+Enter username: Mia
+Enter password: wxyz
+Login incorrect. Tries left: 2
+Enter username: Ian
+Enter password: zxcv
+Login incorrect. Tries left: 1
+Enter username: Ravi
+Enter password: pass1
+Login incorrect. Tries left: 0
+Are you a robot (Y/n)? lol
+Are you a robot (Y/n)? 
+
+
+At the last line of the example above, the user pressed enter without entering anything.
+
 # Task 4: One config (3 marks)
 
 In Task 4, you will write a program that asks the user to input a string and then plans Robbie the robot’s actions to type the string using a keyboard.
