@@ -181,7 +181,7 @@ name of the team leader as a single column called TEAMLEADER, and
 order the output by the team name and within the team name by carnival date.
 [12 marks]
 
-$ TASK 5: Design Modifications (13 marks)
+# TASK 5: Design Modifications (13 marks)
 Your answers for these tasks must be placed in the supplied SQL Script T5-cr-mods.sql
 These tasks should be attempted only after task 2, 3 and 4 have been successfully
 completed. They are to be completed on the "live" database ie. the database with the data
