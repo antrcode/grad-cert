@@ -1,4 +1,4 @@
-Task 1: Rabbytes' age (4 marks)
+# Task 1: Rabbytes' age (4 marks)
 In Task 1, you will write a program that allows a user to create and store new rabbytes. Each rabbit is identified by a unique name. The program also allows the user to enter a rabbit's age.
 
 Read through the following scenario to get started.
@@ -222,7 +222,7 @@ Enter your choice:
 ==================================
 0
 
-Task 2: Rabbytes' lineage (4 marks)
+# Task 2: Rabbytes' lineage (4 marks)
 In Task 2, you will write a program that, on top of the previous options, allows the user to specify a parent/kitten relationship. 
 
 Read through the following scenario to get started.
@@ -423,7 +423,7 @@ Enter your choice:
 ==================================
 0
 
-Task 3: Rabbytes' extended universe (2 marks)
+# Task 3: Rabbytes' extended universe (2 marks)
 Read through the following scenario to get started.
 
 
@@ -552,7 +552,7 @@ Enter your choice:
 ==================================
 0
 
-Task 4: Items and containers (2 marks)
+# Task 4: Items and containers (2 marks)
 In Task 4, you will write a program that reads items and containers from files items.csv and containers.csv, and prints the list of items.
 
 For this and following tasks, do not create files or write into existing files.
@@ -645,7 +645,7 @@ A woolworths shopping bag (total weight: 1, empty weight: 1, capacity: 0/1200)
 Joey's water bowl (total weight: 2, empty weight: 2, capacity: 0/20)
 One of those blue ikea tote bags (total weight: 3, empty weight: 3, capacity: 0/8000)
 
-Task 5: Looting items (5 marks)
+# Task 5: Looting items (5 marks)
 Read through the following scenario to get started.
 
 
@@ -910,7 +910,7 @@ Enter your choice:
 ==================================
 0
 
-Task 6: Multiple compartments (3 marks)
+# Task 6: Multiple compartments (3 marks)
 Read through the following scenario to get started.
 
 
@@ -1094,7 +1094,7 @@ Enter your choice:
 ==================================
 0
 
-Task 7: Magic containers (6 marks)
+# Task 7: Magic containers (6 marks)
 Read through the following scenario to get started.
 
 
@@ -1299,7 +1299,7 @@ Enter your choice:
 ==================================
 0
 
-Task 8: Magic multiple compartments (5 marks)
+# Task 8: Magic multiple compartments (5 marks)
 Read through the following scenario to get started.
 
 
@@ -1564,7 +1564,7 @@ Enter your choice:
 ==================================
 0
 
-Task 9: Containers are items too (4 marks)
+# Task 9: Containers are items too (4 marks)
 Read through the following scenario to get started.
 
 
